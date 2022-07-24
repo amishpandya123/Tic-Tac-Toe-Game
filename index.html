@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<script src="https://kit.fontawesome.com/8c0fa14328.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+  <div id="container">
+  	
+  	<!-- Starting Page -->
+  	<div id="startingPage">
+  		<h2>Tic Tac Toe</h2>
+  		<div id="line"></div>
+  		<h4>Select Which you want to be?</h4>
+  		<div id="button">
+  			<button id="playerX" class="choose">Player ( X )</button>
+  			<button id="playerO" class="choose">Player ( O )</button>
+  		</div>
+  	</div>
+  	
+    <!-- Main Page -->
+    <div id="mainPage">
+    	<div id="headerBtns">
+    		<button id="X_Turn">X Turn</button>
+    		<button id="O_Turn">O Turn</button>
+    		<div id="showChange"></div>
+    	</div>
+
+    	<div id="gameBoard">
+    		 <div class="boxes"></div>
+    		 <div class="boxes"></div>
+    		 <div class="boxes"></div>
+    		 <div class="boxes"></div>
+    		 <div class="boxes"></div>
+    		 <div class="boxes"></div>
+    		 <div class="boxes"></div>
+    		 <div class="boxes"></div>
+    		 <div class="boxes"></div>
+    	</div>
+    </div>
+  	<!-- Winner Page -->
+  	<div id="winner">
+  		<h2 id="winnerName">Player X wins the Game!</h2>
+  		<div id="button">
+  			<button id="play-again">Play Again</button>
+  		</div>
+  	</div>
+  </div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
